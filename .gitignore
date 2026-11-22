@@ -1,0 +1,44 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local configuration & SDK paths
+local.properties
+
+# Signing keys & sensitive credentials (WAJIB untuk repo Public)
+*.jks
+*.keystore
+keystore.properties
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Log & OS files
+*.log
+.DS_Store
+Thumbs.db
+# Kotlin compiler cache
+.kotlin/
