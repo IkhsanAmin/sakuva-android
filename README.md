@@ -23,4 +23,4 @@ $env:JAVA_HOME="<path-ke-JDK-21>"
 ```
 
 ## Lisensi
-Â© 2026 Ikhsan Noor Amin. Seluruh aset grafis dan kode sumber dilindungi oleh hak cipta.
+© 2026 Ikhsan Noor Amin. Seluruh aset grafis dan kode sumber dilindungi oleh hak cipta.
