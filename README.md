@@ -1,4 +1,4 @@
-﻿# Sakuva â€” Finance Tracker (Offline-First)
+﻿# Sakuva - Finance Tracker (Offline-First)
 
 Sakuva adalah aplikasi pencatat keuangan pribadi berbasis Android yang mengutamakan privasi (offline-first) dengan antarmuka **Soft Structuralism** yang bersih dan modern.
 
