@@ -229,6 +229,7 @@ fun HistoryFilterRow(
     onTypeSelected: (com.sakuva.app.domain.model.TransactionType?) -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val strings = LocalStrings.current
     Row(
         modifier = modifier
             .fillMaxWidth()
@@ -236,19 +237,19 @@ fun HistoryFilterRow(
         horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
     ) {
         FilterDropdownChip(
-            label = "Dompet",
+            label = strings.allWallets,
             options = wallets,
             selected = filters.walletId,
             onSelect = onWalletSelected,
         )
         FilterDropdownChip(
-            label = "Kategori",
+            label = strings.allCategories,
             options = categories,
             selected = filters.categoryId,
             onSelect = onCategorySelected,
         )
         FilterDropdownChip(
-            label = "Tipe",
+            label = strings.allTypes,
             options = types,
             selected = filters.type,
             onSelect = onTypeSelected,

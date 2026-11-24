@@ -25,6 +25,8 @@ Format mengacu pada [Keep a Changelog](https://keepachangelog.com/id-ID/1.1.0/) 
 - **Screen Orientation Lock (Portrait)**: Penguncian orientasi vertikal dipindahkan dari catatan umum menjadi pengaturan tersendiri — `android:screenOrientation="portrait"` di `AndroidManifest.xml` dan `ActivityInfo.SCREEN_ORIENTATION_PORTRAIT` di `MainActivity`.
 - **CSV Format**: Nominal angka kini diekspor sebagai angka mentah tanpa pemisah ribuan agar lebih mudah diolah di Excel/Sheets.
 - **App Icon**: Konfigurasi Adaptive Launcher Icon sesuai standar Android modern.
+- **Adaptive Launcher Icon**: Memperbesar skala vektor foreground pada `@mipmap/ic_launcher` dan `@mipmap/ic_launcher_round` agar logo 'S' mengisi area aman (*safe zone* 66dp) launcher Android secara proporsional.
+- **History Filter Reset**: Memperbaiki tombol `"Hapus filter"` pada layar **Riwayat** agar mereset seluruh filter aktif (dompet, kategori, tipe transaksi, dan pencarian) sekaligus mengembalikan daftar transaksi ke kondisi default.
 
 ## [1.0.0] - 2026-11-22
 

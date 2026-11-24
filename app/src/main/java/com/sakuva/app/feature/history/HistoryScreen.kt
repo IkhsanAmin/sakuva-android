@@ -70,7 +70,7 @@ fun HistoryScreen(
     onMonthSelected: (Long) -> Unit,
     onShiftMonth: (Int) -> Unit,
     onCustomRangeSelected: (Long, Long) -> Unit,
-    onClearCustomRange: () -> Unit,
+    onClearFilters: () -> Unit,
     onEdit: (Long) -> Unit,
     onDuplicate: (Long) -> Unit,
     onDelete: (Long) -> Unit,
@@ -152,7 +152,7 @@ fun HistoryScreen(
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
-                        TextButton(onClick = onClearCustomRange) {
+                        TextButton(onClick = onClearFilters) {
                             Text(text = strings.clearFilters)
                         }
                     }
@@ -160,7 +160,7 @@ fun HistoryScreen(
             }
             if (uiState.filters.hasActiveFilters && uiState.filters.customRange == null) {
                 item {
-                    TextButton(onClick = onClearCustomRange) {
+                    TextButton(onClick = onClearFilters) {
                         Text(text = strings.clearFilters)
                     }
                 }

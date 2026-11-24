@@ -39,7 +39,7 @@ fun HistoryRoute(
             onMonthSelected = viewModel::setMonth,
             onShiftMonth = viewModel::shiftMonth,
             onCustomRangeSelected = { start, end -> viewModel.setCustomRange(start, end) },
-            onClearCustomRange = { viewModel.clearCustomRange() },
+            onClearFilters = { viewModel.clearFilters() },
             onEdit = onTransactionClick,
             onDuplicate = onDuplicate,
             onDelete = viewModel::deleteTransaction,
